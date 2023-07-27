@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link href="./images/logo.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=IBM+Plex+Sans+KR:wght@600&display=swap" rel="stylesheet">
+   
+    <script src="./script/jquery-3.6.0.js"></script>
+    <title>레로시티 - 방명록</title>
+    
+</head>
+<body>
+    
+    <div id="wrap">
+        <header id="header">
+          
+        </header>
+
+        <main id="main">
+            
+            <section id="sc-5">
+                <div class="cnt-wrap">
+                <h2>추첨을 통해 소정의 상품을 드립니다.</h2>
+                <form novalidate name="formmail" method="get" action="./data.php" onSubmit="returnchkMailFrm()">
+                       
+                              
+                                
+                                <input type="text" name="title"
+                                 size="32" placeholder="&ensp; 이름"/>      
+                    <br>          
+                                <input type="text" name="senduser"
+                                 size="32" placeholder="&ensp; 전화번호"/>      
+                    <br>        
+                                <input type="text" name="phone"
+                                 size="32" placeholder="&ensp; 추천인"/>      
+                                 <br>
+                               
+                                <textarea style="width:100%;HEIGHT: 198px;border: none;margin-top: 10px;font-family: sans-serif;" name="body"
+                                 rows="5" cols="26" placeholder="&ensp; 방문 소감을 남겨주세요."></textarea>               
+                    <br>
+                                <input name="submit" type="image" src="./subject.png" alt="subject" style="width:100px; border-bottom:none">
+                                 
+                              
+                           
+                           
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            
+    </div>
+
+
+    <script src="./script/fs.js"></script>
+</body>
+</html>
