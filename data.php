@@ -1,6 +1,6 @@
 ﻿<?
-//보내는 이
-  $recipient = "opersk@naver.com";
+//보내는 이 opersk@naver.com
+  $recipient = "kss971011@naver.com";
 //제목 처리
   $subject = '=?UTF-8?B?'.base64_encode($_GET['title']).'?=';
 //메일주소
